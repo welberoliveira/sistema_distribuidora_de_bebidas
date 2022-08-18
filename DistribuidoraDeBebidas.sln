@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sistema", "Sistema", "{B324
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{05E7C894-2191-4772-8C2A-A51090232099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{58B4E25C-536B-4BEF-B8DE-64FA3D4EADE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribuidora.UnitTests", "UnitTests\Distribuidora.UnitTests.csproj", "{58B4E25C-536B-4BEF-B8DE-64FA3D4EADE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Distribuidora.WebApp", "Distribuidora.WebApp\Distribuidora.WebApp.csproj", "{E5087AE3-46B2-4EF4-99F2-5E07EF4CCA0C}"
 EndProject
