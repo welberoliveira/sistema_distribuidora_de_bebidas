@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Distribuidora.UnitTests"
   ],
+  "SelectedNode": "\\Distribuidora.UnitTests\\UnitTest1.cs",
   "PreviewInSolutionExplorer": false
 }
