@@ -10,6 +10,7 @@ namespace Distribuidora.Domain.Exceptions
     {
         public EntityValidationException(string? message): base(message)
         {
+
         }
     }
 }
