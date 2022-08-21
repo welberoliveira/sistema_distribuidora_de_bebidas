@@ -1,7 +1,7 @@
 ﻿namespace Distribuidora.Domain.Entity;
 public class City
 {
-    public Guid Codigo => Guid.NewGuid();
+    public Guid Id => Guid.NewGuid();
     public String Name { get; set; }
     public State State { get; set; }
 
