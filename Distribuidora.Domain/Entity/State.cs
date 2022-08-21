@@ -3,7 +3,7 @@ public class State
 {
     private static long serialVersionUID = 1L;
 
-    public Guid Codigo => Guid.NewGuid();
+    public Guid Id => Guid.NewGuid();
     public String Name { get; set; }
     public String Abreviation { get; set; }
 
@@ -13,7 +13,7 @@ public class State
         Abreviation = abreviation;
     }
 
-    public int HashCode() => Codigo.GetHashCode();
+    public int HashCode() => Id.GetHashCode();
     
     /*
     É necessário entender para que essa função foi criada, por isso mantive comentada porque 
