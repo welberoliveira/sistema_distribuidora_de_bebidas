@@ -3,7 +3,7 @@ using DomainEntity = Distribuidora.Domain.Entity;
 using FluentAssertions;
 
 namespace Distribuidora.UnitTests.Domain.Entity.State;
-public class City
+public class CityTest
 {
     [Fact(DisplayName = nameof(Instaciate))]
     [Trait("Domain", "City")]
@@ -21,8 +21,6 @@ public class City
         //Assert
         state.Should().NotBeNull();
         city.Should().NotBeNull();
-        city.stateName.Should().Be(stateName);
-        city.stateAbreviation.Should().Be(stateAbreviation);
         city.Name.Should().Be(cityName);
     }
 }
