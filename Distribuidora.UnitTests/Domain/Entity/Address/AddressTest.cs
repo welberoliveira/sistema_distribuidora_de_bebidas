@@ -21,15 +21,16 @@ public class AddressTest
         //Act
         var state = new DomainEntity.State(stateName, stateAbreviation);
         var city = new DomainEntity.City(cityName, state);
-        var address = new DomainEntity.Address(addressField, number, note, zipCode);
+        var address = new DomainEntity.Address(addressField, number, note, zipCode, state, city);
 
         //Assert
         state.Should().NotBeNull();
         city.Should().NotBeNull();
         address.Should().NotBeNull();
-        address.addressField.Should().Be(addressField);
-        address.number.Should().Be(number);
-        address.note.Should().Be(note);
-        address.zipCode.Should().Be(zipCode);
+        address.AddressField.Should().Be(addressField);
+        address.Number.Should().Be(number);
+        address.Note.Should().Be(note);
+        address.ZipCode.Should().Be(zipCode);
+        address.GetNomeCidadeSiglaEstado().Should().Be(cityName + " / " + stateAbreviation);
     }
 }

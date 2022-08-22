@@ -21,8 +21,8 @@ public class City
         //Assert
         state.Should().NotBeNull();
         city.Should().NotBeNull();
-        city.stateName.Should().Be(stateName);
-        city.stateAbreviation.Should().Be(stateAbreviation);
+        city.State.Name.Should().Be(stateName);
+        city.State.Abreviation.Should().Be(stateAbreviation);
         city.Name.Should().Be(cityName);
     }
 }
