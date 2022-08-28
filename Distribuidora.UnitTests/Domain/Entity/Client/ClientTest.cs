@@ -37,7 +37,5 @@ public class ClientTest
         client.CpfOrCnpj.Should().Be(cpfOrCnpj);
         client.Phone.Should().Be(phone);
         client.Email.Should().Be(email);
-        client.Address.Should().Be(address);
-        client.City.Should().Be(city);
     }
 }
