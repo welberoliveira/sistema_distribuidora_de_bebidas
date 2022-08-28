@@ -62,8 +62,5 @@ namespace Distribuidora.UnitTests.Domain.Validation
 
             action.Should().NotThrow();
         }
-
-        // só pode ter 2 caracteres
-
     }
 }
