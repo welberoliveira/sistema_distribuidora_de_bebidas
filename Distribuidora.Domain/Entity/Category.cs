@@ -1,5 +1,5 @@
 ﻿namespace Distribuidora.Domain.Entity;
-internal class Category
+public class Category
 {
     public Guid Id => Guid.NewGuid();
     public String Name { get; set; }
